@@ -6,6 +6,9 @@ TagManager:
   tags:
   - SideWall
   - Ground
+  - BlueBox
+  - PinkBox
+  - CompleteDoor
   layers:
   - Default
   - TransparentFX

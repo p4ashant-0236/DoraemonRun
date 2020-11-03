@@ -10,6 +10,7 @@ public class Key : MonoBehaviour, Collectible
     public void Collect()
     {
         Destroy(transform.gameObject);
+        GameObject.FindGameObjectWithTag("CompleteDoor").GetComponent<CompleteDoor>().UnlockDoor();
     }
 
     // Update is called once per frame
