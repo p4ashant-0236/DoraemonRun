@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CompleteDoor : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class CompleteDoor : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player") && isUnlock)
         {
-            Debug.Log("Complete");
+            collision.gameObject.GetComponent<PlayerController>().SinkPlayer();
         }
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - BlueBox
   - PinkBox
   - CompleteDoor
+  - BlackBox
   layers:
   - Default
   - TransparentFX
